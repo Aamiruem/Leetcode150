@@ -53,7 +53,7 @@
 
 
 
-package L1Easy;
+package L1ArrayString;
 import java.util.Arrays;
 public class Q88MergeSortedArrays{
     public void merge(int[] nums1, int m, int[] nums2, int n) {

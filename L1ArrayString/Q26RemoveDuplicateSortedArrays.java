@@ -1,4 +1,4 @@
-package L1Easy;
+package L1ArrayString;
 
 // import java.util.*;
 public class Q26RemoveDuplicateSortedArrays {

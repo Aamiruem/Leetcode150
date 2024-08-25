@@ -16,7 +16,7 @@
 
 
 
-package L1Easy;
+package L1ArrayString;
 
 public class Q27RemoveElements {
 
