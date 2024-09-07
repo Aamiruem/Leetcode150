@@ -11,7 +11,6 @@ public class Q392IsSubsequences {
             }
             tp++;
         }
-
         return sp == s.length();
     }
 
