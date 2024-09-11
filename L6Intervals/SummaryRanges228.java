@@ -2,8 +2,8 @@ package L6Intervals;
 
 import java.util.ArrayList;
 import java.util.List;
-
 public class SummaryRanges228 {
+
     public List<String> summaryRanges(int[] nums) {
 
         List<String> ls = new ArrayList<>();
@@ -23,16 +23,12 @@ public class SummaryRanges228 {
                 } else {
                     sb.append(nums[left]).append("->").append(nums[right]);
                 }
-
                 ls.add(sb.toString());
                 sb.setLength(0);
                 left = right + 1;
             }
-
             right++;
-
         }
-
         if (right == left) {
             sb.append(nums[right]);
         } else {
@@ -41,18 +37,19 @@ public class SummaryRanges228 {
         ls.add(sb.toString());
         return ls;
     }
+
     public static void main(String[] args) {
 
-        int[] nums = { 0, 1, 2, 4, 5, 7 };
+        int[] nums = {0, 1, 2, 4, 5, 7};
         SummaryRanges228 obj = new SummaryRanges228();
         System.out.println(obj.summaryRanges(nums));
         // Output: ["0","1","2","4->5","7"]
 
-        nums = new int[] { 0, 2, 3, 4, 6, 8, 9 };
+        nums = new int[]{0, 2, 3, 4, 6, 8, 9};
         System.out.println(obj.summaryRanges(nums));
         // Output: ["0","2->4","6","8->9"]
 
-        nums = new int[] { 0 };
+        nums = new int[]{0};
         System.out.println(obj.summaryRanges(nums));
         // Output: ["0"]
     }
