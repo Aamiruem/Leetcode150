@@ -1,4 +1,4 @@
-package L5Hashing;
+package L5Hashmap;
 
 import java.util.*;
 public class GroupAnagram49 {

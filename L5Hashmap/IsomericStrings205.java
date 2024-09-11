@@ -1,6 +1,6 @@
 // Algo Used: Hashing
 // TC: O N , SC: O 1 (Since we are using constant 256 values we can treat it as constant space i.e 1)
-package L5Hashing;
+package L5Hashmap;
 
 public class IsomericStrings205 {
 

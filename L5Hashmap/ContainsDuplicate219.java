@@ -1,6 +1,6 @@
 //Algo Used: Hashing
 // TC: O N , SC: O N
-package L5Hashing;
+package L5Hashmap;
 
 import java.util.HashMap;
 

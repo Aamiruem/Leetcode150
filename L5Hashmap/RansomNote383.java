@@ -1,6 +1,6 @@
 //Approach Used: Hashing
 // TC: O N , SC: O 1
-package L5Hashing;
+package L5Hashmap;
 
 public class RansomNote383 {
 

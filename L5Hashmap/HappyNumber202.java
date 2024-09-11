@@ -1,4 +1,4 @@
-package L5Hashing;
+package L5Hashmap;
 
 public class HappyNumber202 {
     public boolean isHappy(int n) {
